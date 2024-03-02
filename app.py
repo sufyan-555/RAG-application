@@ -5,7 +5,7 @@ from model_functions import *
 import streamlit as st
 import os
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"]="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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"]="your_api_key"
 
 data_dir="Documents/"
 database_dir="Database/"
@@ -13,7 +13,7 @@ database_dir="Database/"
 
 embedding_model=HuggingFaceInferenceAPIEmbeddings(
     model_name="sentence-transformers/all-MiniLM-l6-v2",
-    api_key="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"
+    api_key="your_api_key"
 )
 
 model=HuggingFaceHub(
