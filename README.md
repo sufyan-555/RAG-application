@@ -45,6 +45,8 @@ The RAG Application leverages cutting-edge natural language processing (NLP) tec
 
 The application works by utilizing Streamlit to create an interactive user interface. It integrates with Hugging Face's model hub to access a retrieval-augmented generation (RAG) model for answering user questions. PDF documents uploaded by the user are preprocessed and stored in a database using ChromaDB. Users can then ask questions in the chat input, and the application retrieves relevant information from the stored documents and provides answers through the RAG model.
 
+![Screenshot](image1.png)
+
 ## Usage
 
 1. Upload PDF documents using the provided file uploader.
