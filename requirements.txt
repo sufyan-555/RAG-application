@@ -1,0 +1,4 @@
+langchain
+streamlit
+huggingface-hub
+chromadb
