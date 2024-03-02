@@ -2,6 +2,9 @@
 
 Welcome to the RAG Application repository! This is a Streamlit application for interacting with a retrieval-augmented generation (RAG) model. The application allows users to ask questions and receive answers, with the ability to provide context for more accurate responses.
 
+![Screenshot](image3.png)
+![Screenshot](image2.png)
+
 ## Introduction
 
 The RAG Application leverages cutting-edge natural language processing (NLP) techniques to provide an intuitive and interactive interface for accessing information from documents. It combines the power of Hugging Face's model hub with the efficiency of ChromaDB to deliver accurate and context-aware responses to user queries.
